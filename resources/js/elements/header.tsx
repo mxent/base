@@ -7,7 +7,7 @@ export default function Header() {
     const { toggleSidebar } = useSidebarStore();
 
     return (
-        <header className="flex h-14 items-center justify-between border-b bg-white p-3 dark:border-b-slate-800 dark:bg-slate-900">
+        <header className="flex h-14 items-center justify-between border-b bg-white p-3 dark:border-b-slate-800 dark:bg-slate-950">
             <div className="flex items-center">
                 <Button variant="hovy" size="round" onClick={toggleSidebar}>
                     <Menu className="h-5 w-5" />

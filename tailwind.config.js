@@ -1,3 +1,4 @@
+import daisyui from 'daisyui';
 import defaultTheme from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
@@ -18,5 +19,9 @@ export default {
                 ...defaultTheme.fontFamily.mono,
             ],
         },
+    },
+    plugins: [daisyui],
+    daisyui: {
+        themes: ['light', 'dark'],
     },
 };

@@ -15,7 +15,7 @@ export default function Sidebar() {
 
     return (
         <aside
-            className={`fixed inset-y-0 left-0 z-50 flex flex-col bg-white dark:bg-slate-900 ${isMobile ? (sidebarOpen ? 'translate-x-0' : '-translate-x-full') : 'translate-x-0'} ${sidebarOpen ? 'w-64' : 'w-18'} border-r md:relative dark:border-r-slate-800`}
+            className={`fixed inset-y-0 left-0 z-50 flex flex-col bg-white dark:bg-slate-950 ${isMobile ? (sidebarOpen ? 'translate-x-0' : '-translate-x-full') : 'translate-x-0'} ${sidebarOpen ? 'w-64' : 'w-18'} border-r md:relative dark:border-r-slate-800`}
         >
             {isMobile && (
                 <div className="flex h-14 items-center border-b p-3 dark:border-b-slate-800">

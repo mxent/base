@@ -10,7 +10,7 @@ export default function Main({ children }: { children: ReactNode }) {
 
     return (
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-            <div className="flex h-screen flex-col bg-white dark:bg-slate-900">
+            <div className="flex h-screen flex-col bg-white dark:bg-slate-950">
                 <Header />
 
                 <div className="flex flex-1 overflow-hidden">
