@@ -8,21 +8,6 @@ const sidebarItems = [
     { name: 'Subscriptions', icon: PlaySquare },
     { name: 'Library', icon: Clock },
     { name: 'Liked videos', icon: ThumbsUp },
-    { name: 'Home', icon: Home },
-    { name: 'Explore', icon: Compass },
-    { name: 'Subscriptions', icon: PlaySquare },
-    { name: 'Library', icon: Clock },
-    { name: 'Liked videos', icon: ThumbsUp },
-    { name: 'Home', icon: Home },
-    { name: 'Explore', icon: Compass },
-    { name: 'Subscriptions', icon: PlaySquare },
-    { name: 'Library', icon: Clock },
-    { name: 'Liked videos', icon: ThumbsUp },
-    { name: 'Home', icon: Home },
-    { name: 'Explore', icon: Compass },
-    { name: 'Subscriptions', icon: PlaySquare },
-    { name: 'Library', icon: Clock },
-    { name: 'Liked videos', icon: ThumbsUp },
 ];
 
 export default function Sidebar() {
