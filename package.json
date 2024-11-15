@@ -38,6 +38,7 @@
     "dependencies": {
         "class-variance-authority": "^0.7.0",
         "lucide-react": "^0.456.0",
+        "sweetalert2": "^11.14.5",
         "zustand": "^5.0.1"
     },
     "workspaces": [
